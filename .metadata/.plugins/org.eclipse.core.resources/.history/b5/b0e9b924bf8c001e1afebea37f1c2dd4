@@ -1,0 +1,28 @@
+package com.test.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class MemberController {
+
+	@GetMapping(value = "/member.info")
+	public String info(Model model) {
+		
+		return "member.info";
+	}
+	
+	@GetMapping(value = "/history.info")
+	public String history(Model model) {
+		
+		return "history.info";
+	}
+	
+	@GetMapping(value = "/member.info")
+	public String info(Model model) {
+		
+		return "member.info";
+	}
+	
+}

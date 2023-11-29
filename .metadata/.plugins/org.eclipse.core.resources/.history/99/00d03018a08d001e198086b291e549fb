@@ -1,0 +1,14 @@
+package com.test.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+import com.test.persistence.AOPDAO;
+
+@Controller
+public class AOPController {
+	
+	@Autowired
+	private AOPDAO dao;
+
+}

@@ -1,0 +1,7 @@
+package AOPDAOImpl;
+
+import com.test.persistence.AOPDAO;
+
+public class AOPDAOImpl implements AOPDAO{
+
+}

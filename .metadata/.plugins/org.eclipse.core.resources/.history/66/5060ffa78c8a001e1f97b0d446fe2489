@@ -1,0 +1,23 @@
+package com.test.persistence;
+
+import org.mybatis.spring.SqlSessionTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.test.domain.CodeDTO;
+
+@Repository
+public class CodeDAOImpl implements CodeDAO {
+	
+	@Autowired
+	private SqlSessionTemplate template;
+
+	@Override
+	public int add(CodeDTO dto) {
+		
+		
+		
+		return 0;
+	}
+
+}

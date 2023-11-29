@@ -1,0 +1,21 @@
+package com.test.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.test.persistence.CodeDAO;
+
+@Controller
+public class CodeController {
+	
+	@Autowired
+	private CodeDAO dao;
+	
+	@GetMapping(value = "/add.do")
+	public String add() {
+		
+		return "add";
+	}
+
+}

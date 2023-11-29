@@ -1,0 +1,10 @@
+package com.test.aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+@Component
+@Aspect //보조 업무 객체
+public class Log {	
+	
+}

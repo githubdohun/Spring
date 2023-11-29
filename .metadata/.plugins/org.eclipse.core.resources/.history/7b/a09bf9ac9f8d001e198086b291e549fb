@@ -1,0 +1,12 @@
+package AOPDAOImpl;
+
+import org.springframework.stereotype.Repository;
+
+import com.test.persistence.AOPDAO;
+
+@Repository
+public class AOPDAOImpl implements AOPDAO{
+	
+	
+
+}

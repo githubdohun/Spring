@@ -1,0 +1,8 @@
+package com.test.aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+
+@Aspect //보조 업무 객체
+public class Log {	
+	
+}

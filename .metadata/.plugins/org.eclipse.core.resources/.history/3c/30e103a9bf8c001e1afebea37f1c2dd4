@@ -1,0 +1,28 @@
+package com.test.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class MemberController {
+
+	@GetMapping(value = "/info.info")
+	public String info(Model model) {
+		
+		return "info.do";
+	}
+	
+	@GetMapping(value = "/history.info")
+	public String history(Model model) {
+		
+		return "history.do";
+	}
+	
+	@GetMapping(value = "/favorite.info")
+	public String favorite(Model model) {
+		
+		return "favorite.do";
+	}
+	
+}

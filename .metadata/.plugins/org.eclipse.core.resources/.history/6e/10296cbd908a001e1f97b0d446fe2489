@@ -1,0 +1,9 @@
+package com.test.persistence;
+
+import com.test.domain.CodeDTO;
+
+public interface CodeDAO {
+
+	int add(CodeDTO dto);
+
+}

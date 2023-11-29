@@ -1,0 +1,35 @@
+MyBatis(iBatis)
+- 영속성 계층(= 데이터베이스 조작 계층)
+- JDBC 역할
+- 응용 프로그램 <-> JDBC <-> 데이터베이스
+- 응용 프로그램 <-> MyBatis <-> 데이터베이스
+
+
+Spring MyBatis
+- 스프링 프로젝트 중 하나
+1. XML Mapper를 사용하는 방식
+2. Interface Mapper를 사용하는 방식
+
+
+프로젝트 설정
+
+1. pom.xml
+	- JDK 11
+	- Spring 5.0.7
+	
+2. pom.xml
+	- MyBatis > 의존성 추가
+
+
+
+
+
+
+
+
+
+
+- Spring
+- Spring Boot
+- Spring Legacy (X)
+- Spring "Legacy Project"

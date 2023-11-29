@@ -1,0 +1,23 @@
+package com.test.persistence;
+
+import java.util.HashMap;
+
+import com.test.domain.MyBatisDTO;
+
+public interface MyBatisDAO {
+	
+	void test();
+
+	int add(MyBatisDTO dto);
+
+	void m1();
+
+	int m2(String seq);
+
+	int m3(MyBatisDTO dto);
+
+	int m4(HashMap<String, String> map);
+
+	int m5();
+
+}

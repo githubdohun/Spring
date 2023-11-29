@@ -1,0 +1,18 @@
+package AOPDAOImpl;
+
+import org.springframework.stereotype.Repository;
+
+import com.test.persistence.AOPDAO;
+
+@Repository
+public class AOPDAOImpl implements AOPDAO{ 
+	
+	@Override
+	public void list() {
+		
+		System.out.println("DAO.list()");
+		
+		
+	}
+	
+}

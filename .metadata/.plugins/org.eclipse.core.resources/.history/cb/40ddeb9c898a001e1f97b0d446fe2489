@@ -1,0 +1,11 @@
+package com.test.domain;
+
+public class CodeDTO {
+	
+	private String seq;
+	private String subject;
+	private String code;
+	private String regdate;
+	private String language;
+
+}

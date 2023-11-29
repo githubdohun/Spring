@@ -1,0 +1,22 @@
+package com.test.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping(value = "/admin")
+public class AdminController {
+	
+	@GetMapping(value = "/log.info")
+	public String log(Model model) {
+
+		return "log.info";
+	}
+	
+	@GetMapping(value = "/setting.info")
+	public String setting(Model model) {
+
+		return "setting.info";
+	}
+
+}
