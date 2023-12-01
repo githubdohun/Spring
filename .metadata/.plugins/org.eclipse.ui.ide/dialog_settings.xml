@@ -108,6 +108,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\class\code\spring\RESTClientTest"/>
+			<item value="C:\class\code\spring\Jalang"/>
 			<item value="C:\class\code\spring\RESTTest"/>
 			<item value="C:\Users\sjw05\OneDrive\바탕 화면\FileTest"/>
 		</list>
